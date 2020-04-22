@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edge_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/fast_payment_icon_size"
+        android:paddingBottom="@dimen/fast_payment_icon_size">
+
+        <LinearLayout style="@style/LinearLayoutVerticalMatchParent">
+
+            <LinearLayout
+                android:id="@+id/wx_scan"
+                style="@style/ShortcutView">
+
+                <ImageView
+                    android:layout_width="@dimen/fast_payment_icon_size"
+                    android:layout_height="@dimen/fast_payment_icon_size"
+                    android:src="@mipmap/wx_scan" />
+
+                <TextView
+                    style="@style/ShortcutTextView"
+                    android:text="@string/label_scan" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutVerticalMatchParent">
+
+            <LinearLayout
+                android:id="@+id/wx_payment_code"
+                style="@style/ShortcutView">
+
+                <ImageView
+                    android:layout_width="@dimen/fast_payment_icon_size"
+                    android:layout_height="@dimen/fast_payment_icon_size"
+                    android:src="@mipmap/wx_payment_code" />
+
+                <TextView
+                    style="@style/ShortcutTextView"
+                    android:text="@string/label_payment_code" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutVerticalMatchParent">
+
+            <LinearLayout
+                android:id="@+id/wx_collect_money_code"
+                style="@style/ShortcutView">
+
+                <ImageView
+                    android:layout_width="@dimen/fast_payment_icon_size"
+                    android:layout_height="@dimen/fast_payment_icon_size"
+                    android:src="@mipmap/wx_collect_money_code" />
+
+                <TextView
+                    style="@style/ShortcutTextView"
+                    android:text="@string/label_collect_money_code" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutVerticalMatchParent">
+
+            <LinearLayout
+                android:id="@+id/alipay_scan"
+                style="@style/ShortcutView">
+
+                <ImageView
+                    android:layout_width="@dimen/fast_payment_icon_size"
+                    android:layout_height="@dimen/fast_payment_icon_size"
+                    android:src="@mipmap/alipay_scan" />
+
+                <TextView
+                    style="@style/ShortcutTextView"
+                    android:text="@string/label_scan" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutVerticalMatchParent">
+
+            <LinearLayout
+                android:id="@+id/alipay_payment_code"
+                style="@style/ShortcutView">
+
+                <ImageView
+                    android:layout_width="@dimen/fast_payment_icon_size"
+                    android:layout_height="@dimen/fast_payment_icon_size"
+                    android:src="@mipmap/alipay_payment_code" />
+
+                <TextView
+                    style="@style/ShortcutTextView"
+                    android:text="@string/label_payment_code" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout style="@style/LinearLayoutVerticalMatchParent">
+
+            <LinearLayout
+                android:id="@+id/alipay_collect_money_code"
+                style="@style/ShortcutView">
+
+                <ImageView
+                    android:layout_width="@dimen/fast_payment_icon_size"
+                    android:layout_height="@dimen/fast_payment_icon_size"
+                    android:src="@mipmap/alipay_collect_money_code" />
+
+                <TextView
+                    style="@style/ShortcutTextView"
+                    android:text="@string/label_collect_money_code" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

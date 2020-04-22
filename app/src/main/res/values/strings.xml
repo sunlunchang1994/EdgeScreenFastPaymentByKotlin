@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">快捷支付</string>
+    <string name="label_description">打开微信和支付宝的扫码、收款、付款界面</string>
+    <string name="label_payment_code">付款码</string>
+    <string name="label_scan">扫一扫</string>
+    <string name="label_collect_money_code">收款码</string>
+    <string name="label_wechat_is_not_installed">没有安装微信</string>
+</resources>

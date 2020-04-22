@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cocktail-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    cocktailWidth="550"
+    description="@string/label_description"
+    label="@string/app_name"
+    previewImage="@mipmap/pic_test" /><!--configure="ccom.slc.edgescreenfastpayment.activity.EdgeConfigure"-->
